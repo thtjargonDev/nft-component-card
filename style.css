@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8rem;
+    background-color: hsl(217, 54%, 11%);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 2rem;
+}
+
+hr {
+    color: hsla(215, 62%, 89%, 0.882);
+    margin-bottom: 2rem;
+}
+
+
+.nft-card {
+    background-color:hsl(216, 50%, 16%);
+    width: fit-content;
+    padding: 1.8rem;
+    border-radius: 1.2rem;
+    /* box-shadow: ; */
+}
+
+h3.nft-card__title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+p.nft-card__text--desc {
+    font-size: 1.8rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.image-eutherum {
+    width: 34rem;
+    border-radius: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.nft-card__text--box {
+    max-width: 30rem;
+    margin-bottom: 2.4rem;
+}
+
+.nft-card__market--place {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.nft-card__eutherum--token {
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+}
+
+svg .icon-eutherum, svg .icon-clock {
+    width: 5rem;
+}
+
+.nft-card__eutherum--expiry {
+    color:hsl(215, 51%, 70%); 
+    word-spacing: -0.2rem;  
+}
+
+.nft-card__author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+ 
+img.jules-wyvern {
+    width: 13%;
+    /* border: 0.2rem solid white; */
+}
+
+.nft-card__author--id {
+      color:hsl(215, 51%, 70%); 
+      text-decoration: none;
+}
+
+.nft-card__author--name {
+    color: hsl(0, 0%, 100%);
+}
+
+/*----------------------------------------------------
+------------------UTILITY CLASSES---------------------
+------------------------------------------------------  */
+.mgn-r {
+    margin-right: 0.5rem;
+}
